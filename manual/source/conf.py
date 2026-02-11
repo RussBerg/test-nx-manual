@@ -81,6 +81,9 @@ html_static_path = ["_static"]
 
 # Add extra files
 html_extra_path = ["CNAME"]
+html_extrahead = [
+    '<meta name="algolia-site-verification" content="FE0EB363852A343E" />'
+]
 
 html_sidebars = {
     "**": [
