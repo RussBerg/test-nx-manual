@@ -52,7 +52,7 @@ jobs:
         run: |
           echo "The HTML NeXus User Manual will be pushed to"
           echo " https://github.com/RussBerg/test-nx-manual/tree/gh-pages"
-          echo "The HTML NeXus User Manual will be deployed on"
+          echo "The test HTML NeXus User Manual will be deployed on"
           echo " https://russberg.github.io/test-nx-manual/"
 
       - name: Install Requirements
