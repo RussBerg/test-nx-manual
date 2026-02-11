@@ -118,5 +118,5 @@ jobs:
         if: ${{ github.event.inputs.upload && env.python_version == env.python_deploy_version }}
         uses: actions/upload-artifact@v4
         with:
-          name: nexus-definitions-docs
+          name: tst-srch-nexus-definitions-docs
           path: build/html
