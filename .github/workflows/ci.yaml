@@ -92,12 +92,12 @@ jobs:
         run: |
           make prepare
 
-      - name: Build Impatient Guide
-        run: |
-          make impatient-guide
-          ls -lAFgh build/impatient-guide/build/html/index.html
-          mkdir -p build/html
-          mv build/impatient-guide/build/html build/html/impatient
+#      - name: Build Impatient Guide
+#        run: |
+#          make impatient-guide
+#          ls -lAFgh build/impatient-guide/build/html/index.html
+#          mkdir -p build/html
+#          mv build/impatient-guide/build/html build/html/impatient
 
       - name: Build User Manual
         run: |
