@@ -101,7 +101,7 @@ jobs:
 
       - name: Build User Manual
         run: |
-          make pdf
+          # make pdf
           make html
           ls -lAFgh build/manual/build/html/index.html
           mkdir -p build/html
